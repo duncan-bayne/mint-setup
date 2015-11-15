@@ -21,6 +21,7 @@ apt-get -y install \
         audacity \
         autoconf \
         automake \
+        blueman \
         build-essential \
         ccrypt \
         checkinstall \
@@ -49,6 +50,7 @@ apt-get -y install \
         gtk-recordmydesktop \
         hfsprogs \
         htop \
+        indicator-sound-switcher \
         inform \
         inotify-tools \
         irssi \

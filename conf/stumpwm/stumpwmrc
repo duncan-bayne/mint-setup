@@ -8,6 +8,8 @@
       (progn
         (run-shell-command "trayer --SetDockType false --transparent false --SetPartialStrut --widthtype --expand false --width 50")
         (run-shell-command "nm-applet --sm-disable")
+        (run-shell-command "blueman-applet")
+        (run-shell-command "indicator-sound-switcher")
         (run-shell-command "xscreensaver &")
         (setq *x-setup-initialized* t))))
 
