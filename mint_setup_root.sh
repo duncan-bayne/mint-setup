@@ -50,7 +50,6 @@ apt-get -y install \
         gtk-recordmydesktop \
         hfsprogs \
         htop \
-        indicator-sound-switcher \
         inform \
         inotify-tools \
         irssi \
@@ -140,5 +139,5 @@ chmod a+x /etc/pm/sleep.d/swapcaps
 ./install_go.sh
 ./install_mac_kb.sh
 ./install_virtualbox.sh
-
+./install_indicator_sound_switcher.sh
 rm -rf ~/mint_setup_tmp
