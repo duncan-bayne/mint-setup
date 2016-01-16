@@ -127,6 +127,10 @@
             "Toggles Play / Pause in Spotify."
             (run-shell-command "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"))
 
+(defcommand swapcaps () ()
+            "Swaps the CAPS and CTRL keys."
+            (run-shell-command "swapcaps"))
+
 (let ((home (sb-unix::posix-getenv "HOME")))
 
   ;; X setup
