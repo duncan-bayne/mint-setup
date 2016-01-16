@@ -111,6 +111,10 @@
             "Start Spotify unless it is already running, in which case focus it."
             (run-or-raise "spotify" '(:class "Spotify")))
 
+(defcommand idea () ()
+            "Start IntelliJ IDEA unless it is already running, in which case focus it."
+            (run-or-raise "idea.sh" '(:class "jetbrains-idea")))
+
 (defcommand spotify-next-track () ()
             "Skip to the next track in Spotify."
             (run-shell-command "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"))
@@ -144,6 +148,10 @@
   (define-key *root-map* (kbd "d") "firefox")
   (define-key *root-map* (kbd "D") "chromium")
   (define-key *root-map* (kbd "c") "terminal")
+  (define-key *root-map* (kbd "M-RET") "swapcaps")
+  (define-key *root-map* (kbd "j") "idea")
+
+  ;; map media keys
   (define-key *top-map* (kbd "XF86AudioRaiseVolume") "raise-volume")
   (define-key *top-map* (kbd "XF86AudioLowerVolume") "lower-volume")
   (define-key *top-map* (kbd "XF86AudioMute") "toggle-mute-volume")
