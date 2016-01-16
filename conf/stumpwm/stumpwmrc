@@ -158,6 +158,13 @@
   (define-key *top-map* (kbd "XF86MonBrightnessUp") "raise-backlight")
   (define-key *top-map* (kbd "XF86MonBrightnessDown") "lower-backlight")
 
+  ;; alternatives to media keys for keyboards without same
+  (define-key *root-map* (kbd "M-=") "raise-volume")
+  (define-key *root-map* (kbd "M-\-") "lower-volume")
+  (define-key *root-map* (kbd "M-m") "toggle-mute-volume")
+  (define-key *root-map* (kbd "M-0") "raise-backlight")
+  (define-key *root-map* (kbd "M-9") "lower-backlight")
+
   ;; startup stuff - safe to do this multiple times
   (run-shell-command (concatenate 'string "xsetbg -border black -center " home "/Pictures/stumpwm_wallpaper.jpg"))
 
