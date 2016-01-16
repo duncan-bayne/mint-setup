@@ -101,7 +101,7 @@
 
 (defcommand chromium () ()
             "Start Chromium unless it is already running, in which case focus it."
-            (run-or-raise "chromium-browser" '(:class "Chromium-browser")))
+            (run-or-raise "chromium-browser" '(:class "chromium-browser")))
 
 (defcommand terminal () ()
             "Start terminator unless it is already running, in which case focus it."
