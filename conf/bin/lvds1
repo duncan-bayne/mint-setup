@@ -7,5 +7,6 @@ xrandr --output DP1 --off
 xrandr --output HDMI1 --off
 
 xrandr --output DP1 --auto --right-of HDMI1
+xrandr --output eDP1 --auto --right-of HDMI1
 
 if [ -f ~/bin/mywallpaper ]; then ~/bin/mywallpaper; fi
