@@ -76,6 +76,3 @@ if [ ! -d ~/.config/terminator ]; then ln -s $(pwd)/conf/terminator ~/.config/te
 echo Configuring Git
 git config --global push.default simple
 
-echo Installing ASynK
-pip install --user python-dateutil
-if [ ! -d ~/ASynK ]; then git clone --recursive https://github.com/skarra/ASynK.git ~/ASynK; fi
