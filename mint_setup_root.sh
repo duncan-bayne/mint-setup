@@ -140,4 +140,6 @@ chmod a+x /etc/pm/sleep.d/swapcaps
 ./install_mac_kb.sh
 ./install_virtualbox.sh
 ./install_indicator_sound_switcher.sh
+./install_clojure.sh
+
 rm -rf ~/mint_setup_tmp
