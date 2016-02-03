@@ -9,5 +9,5 @@ echo Install RVM
 \curl -sSL https://get.rvm.io | bash
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-rvm install ruby-2.2.3
+rvm install ruby-2.3.0
 rvm docs generate-ri
