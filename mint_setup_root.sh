@@ -41,8 +41,6 @@ apt-get -y install \
         geeqie \
         gettext \
         gimp \
-        git-core \
-        gitg \
         gnome-rdp \
         gnutls-bin \
         gparted \
