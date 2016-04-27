@@ -69,6 +69,10 @@
             "Toggle volume mute via amixer"
             (run-shell-command "amixer -D pulse set Master toggle"))
 
+(defcommand pair () ()
+            "Runs pairing script for Bluetooth devices"
+            (run-shell-command "pair"))
+
 (defcommand suspend () ()
             "Suspends the system (to RAM)"
             (progn
@@ -154,6 +158,7 @@
   (define-key *root-map* (kbd "c") "terminal")
   (define-key *root-map* (kbd "M-RET") "swapcaps")
   (define-key *root-map* (kbd "j") "idea")
+  (define-key *root-map* (kbd "M-o") "pair")
 
   ;; map media keys
   (define-key *top-map* (kbd "XF86AudioRaiseVolume") "raise-volume")
