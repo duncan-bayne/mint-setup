@@ -1,0 +1,14 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_image = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
