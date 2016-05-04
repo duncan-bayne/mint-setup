@@ -1,1 +1,1 @@
-This repository has moved to [GitLab](https://gitlab.com/duncan-bayne/mint-setup), and will be deleted in the near future.
+This project is now hosted at [GitLab](https://gitlab.com/duncan-bayne/mint-setup).
