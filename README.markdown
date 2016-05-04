@@ -1,1 +1,1 @@
-Please see the [mint-setup wiki](https://github.com/duncan-bayne/mint-setup/wiki) for all documentation.
+This repository has moved to [GitLab](https://gitlab.com/duncan-bayne/mint-setup).
