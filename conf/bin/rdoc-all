@@ -1,5 +1,0 @@
-#!/bin/sh
-
-set -e
-
-terminator -x gem rdoc --all --overwrite --rdoc --ri --overwrite
