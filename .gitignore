@@ -1,7 +1,0 @@
-npm-install-*.sh
-conf/sublime-text-3/Cache/*
-conf/sublime-text-3/Index/*
-conf/sublime-text-3/Local/*
-conf/sublime-text-3/Packages/User/Package\ Control.cache/*
-conf/sublime-text-3/Packages/User/Package\ Control.last-run
-quicklisp.lisp
